@@ -1,0 +1,14 @@
+README.txt
+setup.cfg
+setup.py
+src/templer/__init__.py
+src/templer.django.egg-info/PKG-INFO
+src/templer.django.egg-info/SOURCES.txt
+src/templer.django.egg-info/dependency_links.txt
+src/templer.django.egg-info/entry_points.txt
+src/templer.django.egg-info/namespace_packages.txt
+src/templer.django.egg-info/not-zip-safe
+src/templer.django.egg-info/requires.txt
+src/templer.django.egg-info/top_level.txt
+src/templer/django/__init__.py
+src/templer/django/django_buildout.py

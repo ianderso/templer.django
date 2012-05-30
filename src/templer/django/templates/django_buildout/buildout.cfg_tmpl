@@ -1,0 +1,12 @@
+[buildout]
+parts = django
+eggs =
+
+[django]
+recipe = djangorecipe
+settings = development
+eggs = \${buildout:eggs}
+project = dummyshop
+#if $wsgi
+wsgi = true
+#end if
