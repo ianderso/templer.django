@@ -10,3 +10,39 @@ project = dummyshop
 #if $wsgi
 wsgi = true
 #end if
+
+
+
+#project
+#This option sets the name for your project. The recipe will create a basic structure if the project is not already there.
+#
+#projectegg
+#Use this instead of the project option when you want to use an egg as the project. This disables the generation of the project structure.
+#
+#python
+#This option can be used to specify a specific Python version which can be a different version from the one used to run the buildout.
+#
+#settings
+#You can set the name of the settings file which is to be used with this option. This is useful if you want to have a different production setup from your development setup. It defaults to development.
+#
+#extra-paths
+#All paths specified here will be used to extend the default Python path for the bin/* scripts.
+#
+#pth-files
+#Adds paths found from a site .pth file to the extra-paths. Useful for things like Pinax which maintains its own external_libs dir.
+#
+#wsgi
+#An extra script is generated in the bin folder when this is set to true. This can be used with mod_wsgi to deploy the project. The name of the script is control-script.wsgi.
+#
+#wsgilog
+#In case the WSGI server you're using does not allow printing to stdout, you can set this variable to a filesystem path - all stdout/stderr data is redirected to the log instead of printed
+#
+#fcgi
+#Like wsgi this creates an extra script within the bin folder. This script can be used with an FCGI deployment.
+#
+#test
+#If you want a script in the bin folder to run all the tests for a specific set of apps this is the option you would use. Set this to the list of app labels which you want to be tested.
+#
+#testrunner
+#This is the name of the testrunner which will be created. It defaults to test.
+#All following options only have effect when the project specified by the project option has not been created already.
